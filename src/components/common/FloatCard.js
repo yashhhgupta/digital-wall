@@ -9,10 +9,10 @@ const FloatCard =(props)=>{
     const DeleteHandler = ()=>{
         props.delete();
     }
-    const newStyles = props.for !== "post" ? {} : {
+    const newStyles = props.for != "post" ? {} : {
       margin: "150px 0px 0px 20px"
     }
-
+    console.log(props.for);
     return (
       <div className={styles.card} style={newStyles} >
         <div className={styles.row} onClick={EditHandler}>

@@ -61,6 +61,7 @@ const BoardCard= (prop)=>{
                 <FloatCard
                   edit={EditClickHandler}
                   delete={DeleteClickHandler}
+                  for = "board"
                 />
                 </div>
               )}
