@@ -57,10 +57,12 @@ const BoardCard= (prop)=>{
                 />
               </div>
               {card && (
+                <div>
                 <FloatCard
                   edit={EditClickHandler}
                   delete={DeleteClickHandler}
                 />
+                </div>
               )}
             </div>
           </div>
