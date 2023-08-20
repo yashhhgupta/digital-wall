@@ -1,0 +1,50 @@
+.navbar {
+    padding: 10px 50px;
+    border-bottom:1px solid #ebebeb;
+}
+
+.navList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px;
+    /* margin: 0px 30px; */
+    align-items: center;
+    font-size: 20px;
+}
+.navRight{
+    display: flex;
+    justify-content: space-between;
+    width : 40%;
+}
+.flex{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+.flex2{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    /* justify-content: space-between; */
+    border :1px solid #ebebeb;
+}
+.btn {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    background-color: #D33852;
+    padding: 8px 10px;
+    font-size: 20px;
+    border :none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+.input {
+    border:none;
+    border-radius: 6px;
+    margin: 0px 10px;
+}
+

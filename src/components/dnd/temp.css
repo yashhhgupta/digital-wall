@@ -1,0 +1,23 @@
+.container {
+    margin :100px 200px;
+    height: 500px;
+    width: 500px;
+    background: #000;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    /* padding: 0 auto; */
+}
+.card{
+    /* height: 100px; */
+    width: 50%;
+    background: #fff;
+    border-radius: 8px;
+    color :red;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 0;
+    margin-right:1rem;
+}

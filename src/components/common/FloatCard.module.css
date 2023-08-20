@@ -1,0 +1,26 @@
+.card{
+    position :fixed;
+    padding: 15PX;
+    height: 100px;
+    width: 120px;
+    background-color: white;
+    border-radius: 8px;
+    border : 1px solid #ebebeb;
+    margin :20px 0px 0px 210px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    z-index: 200;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+    font-size: 20px;
+    color : #717171;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+}

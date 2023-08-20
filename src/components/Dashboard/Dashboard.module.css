@@ -1,0 +1,9 @@
+.layout {
+    padding : 0px 50px;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
